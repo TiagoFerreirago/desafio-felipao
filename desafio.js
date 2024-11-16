@@ -1,5 +1,4 @@
 const readline = require('readline');
-const { finished } = require('stream');
 
 let experienciaHeroi = [1005, 3008, 5800, 6400, 7605, 8560, 9600];
 
