@@ -31,7 +31,7 @@ rl.question("Deseja iniciar a Jornada?(sim/não) ", (resposta) => {
                     
                     case "NÃO":
                         console.log("Esse Elo não existe");
-                        rl.close();  // Aqui o rl.close() é chamado porque o fluxo de interação é encerrado.
+                        rl.close();  
                         break;
 
                     case "SIM":
@@ -59,7 +59,7 @@ rl.question("Deseja iniciar a Jornada?(sim/não) ", (resposta) => {
                         } else {
                             console.log(saida + "Radiante");
                         }
-                        rl.close();  // Fechar a interface após o final da verificação do Elo.
+                        rl.close();  
                         break;
                         default:
                             console.log("Resposta inválida!") 
